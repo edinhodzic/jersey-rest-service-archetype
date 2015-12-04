@@ -13,6 +13,8 @@ The packages and code it generates within those modules is also appropriately na
 
 The code which it generates is minimal as it is based on the abstractions inside the [`jersey-rest-service`](https://github.com/edinhodzic/jersey-rest-service) library.
 
+[![Build Status](https://travis-ci.org/edinhodzic/jersey-rest-service-archetype.svg?branch=master)](https://travis-ci.org/edinhodzic/jersey-rest-service-archetype)
+
 # What's under the hood?
 
 - [Maven archetype plugin](http://maven.apache.org/archetype/maven-archetype-plugin/)
