@@ -67,6 +67,20 @@ Configuration is in [YAML](http://www.yaml.org/spec/1.2/spec.html). Environment 
 
 To use an environment specific configuration for instance the development configuration, supply a `-Dspring.profiles.active=development` on startup.
 
+# Metrics
+
+One of the main components of this library is [Spring Boot](http://projects.spring.io/spring-boot/) which provides a set of useful out of the box [metric endpoints](http://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-metrics.html). In this library, by default, these metric endpoints have been mapped to the `/admin` context.
+
+Below are some examples of the available metrics and what they may be useful for, for more detailed information please refer to the Spring Boot documentation.
+
+- [`http://localhost:9000/admin/health`](http://localhost:9000/admin/health) : TODO describe briefly
+- [`http://localhost:9000/admin/metrics`](http://localhost:9000/admin/metrics) : TODO describe briefly
+- [`http://localhost:9000/admin/mappings`](http://localhost:9000/admin/mappings) : TODO describe briefly
+- [`http://localhost:9000/admin/env`](http://localhost:9000/admin/env) : TODO describe briefly
+- [`http://localhost:9000/admin/trace`](http://localhost:9000/admin/trace) : TODO describe briefly
+
 # What's next?
 
-Actually implement the above :)
+- [ ] Actually implement the above :)
+
+
