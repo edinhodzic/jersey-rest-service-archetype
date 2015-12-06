@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: Somecompany ${domainObject} REST Service (integration)

@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: Somecompany ${domainObject} REST Service (production)
+logging:
+  level: info
+security:
+  user:
+    password: s0m3c0mp4ny

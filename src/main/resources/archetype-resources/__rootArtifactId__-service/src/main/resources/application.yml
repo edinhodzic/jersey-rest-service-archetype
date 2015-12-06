@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: Somecompany ${domainObject} REST Service
+  datasource: # TODO replace this datasource with mongo config
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost/test
+  main:
+    show-banner: false
+server:
+  port: ${servicePort}
+  servletPath: /admin # moving dispatcherServlet out of the way for jerseyServlet
+logging:
+  file: somecompany-${packageDomain}-rest-service.log
+  level: debug
+security:
+  user:
+    password: m0nkey
+mongo:
+  database:
+    name: ${packageDomain}s
+
+
+
+
+
+# http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+# http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-logging-file-output
+# http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production-ready-application-info
+#
+#info:
+#  project:
+#    groupId: @project.groupId@
+#    artifactId: @project.artifactId@
+#    version: @project.version@

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>${groupId}</groupId>
+    <artifactId>${rootArtifactId}</artifactId>
+    <version>${version}</version>
+  </parent>
+
+  <groupId>${packageName}.domain</groupId>
+  <artifactId>${artifactId}</artifactId>
+  <packaging>jar</packaging>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.edinhodzic.service</groupId>
+      <artifactId>jersey-rest-service</artifactId>
+      <!-- TODO this dependency is only needed here by the domain module
+      because of Identifiable trait, look to make this neater -->
+    </dependency>
+  </dependencies>
+
+</project>
