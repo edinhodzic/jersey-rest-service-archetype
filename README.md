@@ -44,7 +44,7 @@ That creates a project in a `moo-user` directory.
 
 ## <a name="step2-start-the-service"></a>Step 2 - start the service
 
-The aforementioned `dods-user` directory is the top level Maven project for this service. It contains three modules; domain, client and server. From the server module we can invoke a Maven command to start the service up locally.
+The aforementioned `somecompany-user` directory is the top level Maven project for this service. It contains three modules; domain, client and server. From the server module we can invoke a Maven command to start the service up locally.
 
     cd moo-user/moo-user-service/
     mvn spring-boot:run
