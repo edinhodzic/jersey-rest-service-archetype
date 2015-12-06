@@ -106,3 +106,4 @@ Below are some examples of the available metrics and what they may be useful for
 - [ ] improve the parameters used with the archetype
     - make them more self explanatory and could probably get away with less of them
 - [ ] improve the README.md which the archetype generates for a project
+- [ ] create an archetype like this but using SBT and Play instead
