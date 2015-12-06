@@ -19,6 +19,10 @@ The code which it generates is minimal as it is based on the abstractions inside
 
 - [Maven archetype plugin](http://maven.apache.org/archetype/maven-archetype-plugin/)
 
+# Prerequisites
+
+As a prerequisite you should have a [MongoDB](https://www.mongodb.org/) instance running locally on the defaut port.
+
 # Quick start usage
 
 This shouldn't even take a couple of minutes. Suppose we were implementing a user REST service.
